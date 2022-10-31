@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== UNICONS ==========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--========== BOXICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--========== SWIPER CSS ==========-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Responsive portfolio website - Kedge </title>
+</head>
+<body>
+    <!--========== SIDEBAR ==========-->
+    <aside class= "sidebar" id= "sidebar">
+        <nav class= "nav"> 
+            <div class="nav__logo">
+                <a href="index.html" class="nav__logo-text">C</a>
+            </div>
+
+            <div class="nav__menu">
+                <div class="menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                          <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                         <li class="nav__item">
+                          <a href="#about" class="nav__link">About me</a>
+                        </li>
+                          <li class="nav__item">
+                          <a href="#services" class="nav__link">Qualifications</a>
+                        </li>
+                         <li class="nav__item">
+                          <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                         <li class="nav__item">
+                          <a href="#work" class="nav__link">Productions</a>
+                        </li>
+                         <li class="nav__item">
+                          <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn__share">
+                <i class="uil uil-share-alt social__share"></i>
+            </div>
+        </nav>
+
+    </aside>
+    <!--========== MAIN ==========-->
+    <main class="main">
+        <!--===== Home =====-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__social">
+                    <span class="home__social-follow">Se Connecter avec moi</span>
+                    <div class="home__social-links">
+                        <a href="https://www.linkedin.com/in/carla-loïal-frey"target="_blank" class="home__social-link">
+                           <i class="uil uil-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/img/aboutme.jpeg" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">Curriculum Vitae de Carla </h1>
+                    <h3 class="home__subtitle">Je suis etudiante à Kedge</h3>
+                    <p class="home__description"> Ceci est mon site curriculum vitae dans le cadre de mon cours décoder le code</p>
+                    <a href="#about" class="button"> <i class="uil uil-user button__icon"></i>
+                    More About Me
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--===== About =====-->
+        <section class="about section" id="about">
+            <h2 data-heading= "My Intro" class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/photo.jpeg" alt="" class="about__img">
+                <div class="about__data">
+                    <h3 class="about__heading">Bonjour je suis Carla, </h3>
+                    <p class="about__description"> Ancienne parisienne,  je viens d'emménager à Marseille. Etudiante en troisième année de Kedge Bachelor avec plusieurs années d'experiences. Aujourd'hui je m'initie au langage HTML et au UI/Ux design.</p>
+                    <div class="about__info">
+                        <div class="about__info grid">
+                            <div class="about__box">
+                                <i class="uil uil-award about__icon"></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle"> 5 + Years </span>
+                            </div>
+
+
+                            <div class="about__box">
+                                <i class="uil uil-suitcase-alt about__icon"></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">34 + Projects </span>
+                            </div>
+
+
+                            <div class="about__box">
+                                <i class="uil uil-headphones-alt about__icon"></i>
+                                <h3 class="about__title">Contact</h3>
+                                <span class="about__subtitle">Available 7/7</span>
+                                <a href="#contact" class="button"><i class="uil uil-navigator"></i>
+                                Contact Moi
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== Qualification =====-->
+        <section class="qualification section" id="services">
+            <h2 data-heading= "My Journey" class="section__title">Qualification</h2>
+
+            <div class="qualification__container container grid">
+             <div class="education">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-graduation-cap"></i>Education
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title> DIPLÔME SUPERIEUR DE GESTION & COMMERCE</h3>
+                            <p class="timeline__text">KEDGE Business School (Marseille) </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                            2022-2023</span>
+                        </div>
+                        
+
+                            <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title> BTS SUPPORT À L'ACTION MANGÉRIALE</h3>
+                            <p class="timeline__text">Aureis Formation (Paris)</p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                            2020-2022</span>
+                        </div>
+
+
+                         <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>LICENCE 2ÉME ANNÉE DROIT</h3>
+                            <p class="timeline__text">Descartes PARIS V (Malakoff) </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                            2016-2019</span>
+                        </div>
+
+
+                         <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>EYELASHES FORMATION</h3>
+                            <p class="timeline__text">Auto-entrepreuneuse (Drancy)</p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                            2017</span>
+                        </div>
+
+
+                         <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>BACCALAUREAT SERIE L</h3>
+                            <p class="timeline__text">Eugene Delacroix (Drancy) </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                            2016</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-suitcase"></i>Experience
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>ASSISTANTE DE DIRECTION (Levallois-Perret)</h3>
+                            <p class="timeline__text">L'Oréal Paris- Division Produits Professionel </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                Sept 2020 - Août 202
+                            </span>
+                        </div>
+
+
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>ORGANISATRICE ÉVÈNEMENT (Ile-de-France)</h3>
+                            <p class="timeline__text">Auto-entrepreuneuse </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                Janv 2020 - Juil 2022
+                            </span>
+                        </div>
+
+
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>AUXILIAIRE DE VIE renfort COVID-19 (Paris)</h3>
+                            <p class="timeline__text">APSSAD  </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                15 Mai 2020- 31 Mai 2020
+                            </span>
+                        </div>
+
+
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>HÔTESSE D'ACCUEIL (Paris)</h3>
+                            <p class="timeline__text">AXCESS/EHPAD Solemnes </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                Fev 2019 - Mars 2020
+                            </span>
+                        </div>
+                       
+
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class= timeline__title>TECHNICIENNE DE CIL (Ile-de-France)</h3>
+                            <p class="timeline__text">Auto-entrepreneur </p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                Dec 2018 - Mars 2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== Skills =====-->
+        <section class="skills section" id="skills">
+            <h2 data-heading= "My Abilities" class="section__title"> My Experience</h2>
+
+            <div class="skills__container container grid">  
+                <div class="skills__tabs">
+                    <div class="skills__header skills__active" >
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Frontend developper</h1>
+                            <span class="skills__subtitle">Depuis 2 mois</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__header">
+                        <i class="uil uil-swatchbook skills__swatchbook"></i>
+                        <div>
+                            <h1 class="skills__title">UI/UX design</h1>
+                            <span class="skills__subtitle">Depuis 2 mois</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header" >
+                         <i class="uil uil-server-network-alt skills__network"></i>
+                        <div>
+                            <h1 class="skills__title"> Pack office/ Mac OS</h1>
+                            <span class="skills__subtitle">Depuis 7 ans</span>
+                        </div>
+
+                         <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header">
+                        <i class="uil uil-briefcase skills__briefcase"></i>
+
+                        <div>
+                            <h1 class="skills__title">Couture</h1>
+                            <span class="skills__subtitle">Debutante</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header">
+                        <i class="uil uil-presentation-line skills__presentation"></i>
+
+                        <div>
+                            <h1 class="skills__title">Adobe La Suite</h1>
+                            <span class="skills__subtitle">Débutante</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__header">
+                        <i class="uil uil-swatchbook skills__swatchbook"></i>
+                        <div>
+                            <h1 class="skills__title">Management de projet</h1>
+                            <span class="skills__subtitle">Depuis 3 ans</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <div class="skills__group skills__active">
+                        <div class="skills__list grid">
+                            <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">45%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:45%"></span>
+                                </div>
+                            </div>
+
+                             <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">45%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:45%"></span>
+                                </div>
+                            </div>
+                             <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Création de contenu</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:90%"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills__group" >
+                        <div class="skills__list grid">
+                            <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:90%"></span>
+                                </div>
+                            </div>
+
+                             <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">IWork</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:100%"></span>
+                                </div>
+                            </div>
+
+                              <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Patronage</h3>
+                                    <span class="skills__number">30%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:30%"></span>
+                                </div>
+                            </div>
+
+                             <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:70%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skilss__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Organisation d'évènements</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:100%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== Work =====-->
+        <section class="work section" id="work">
+            <h2 data-heading= "My portfolio" class="section__title">Recent Works </h2>
+
+            <div class="work__filters">
+                          <a href="#mockup" class="work__item active-work">Mockup Décoder le code</a>
+                          <a href="#mvp" class="work__item active-work">Mockup App Stalk</a>
+                          <a href="#app" class=" work__item active-work">Mockup Site Web Stalk </a>
+                          <a href="#designweb" class="work__item active-work">Site Web</a>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/mvp.png" alt="work__img" >
+                    <h3 class="work__title"> MVP - design app</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                </div>
+
+                <div class="work__card mix app">
+                    <img src="assets/img/landingpagestalk.png" alt="work__img">
+                    <h3 class="work__title"> MVP - design site web</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/landingpage.png" alt="work__img">
+                    <h3 class="work__title"> Mockup - landing page</h3>
+                    <span class="work__button" >Demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                </div>
+
+                <div class="work__card mix app">
+                    <img src="assets/img/curriculumvitaesb.png" alt="work__img">
+                    <img src="assets/img/curri.png" alt=" work__img">
+                    <h3 class="work__title"> Curriculum Vitae - site Web</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Popup -->
+
+    <div class="portfolio__popup" id="app">
+        <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content grid">
+                <div class="pp__thumbnail">
+                    <img src="assets/img/landingpagestalk.png" alt="" class="portfolio__popup-img">
+                </div>
+                <div class="portfolio__popup-info" >
+                    <div class= "portfolio__popup-subtitle "> Created - <span> 1 oct 2022 </span> 
+                        <div class="portfolio__popup-body"> 
+                            <div class= "portfolio__item-details">
+                                <h3 class="details__title"> Landing page for STALK App </h3>
+                                <p class="details__description">Dans le cadre du cours d'entrepreneuriat j'ai réalisé un mockup de mon application. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Cum corrupti maxime ipsum, adipisci eum, itaque quibusdam aspernatur eligendi beatae saepe accusantium, libero ratione atque sed consequatur quasi repellendus similique quod?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio__popup" id="mvp">
+        <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content grid">
+                <div class="pp__thumbnail">
+                    <img src="assets/img/mvp.png" alt="" class="portfolio__popup-img">
+                </div>
+                <div class="portfolio__popup-info" >
+                    <div class= "portfolio__popup-subtitle "> Created - <span> 1 oct 2022 </span> 
+                        <div class="portfolio__popup-body"> 
+                            <div class= "portfolio__item-details">
+                                <h3 class="details__title"> Site Web - Curriculum Vitae </h3>
+                                <p class="details__description">Dans le cadre du cours décoder le code j'ai réalisé un site cv. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Cum corrupti maxime ipsum, adipisci eum, itaque quibusdam aspernatur eligendi beatae saepe accusantium, libero ratione atque sed consequatur quasi repellendus similique quod?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio__popup" id="designweb">
+        <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content grid">
+                <div class="pp__thumbnail">
+                    <img src="assets/img/curriculumvitaesb.png" alt="" class="portfolio__popup-img">
+                </div>
+                <div class="portfolio__popup-info" >
+                    <div class= "portfolio__popup-subtitle "> Created - <span> 1 oct 2022 </span> 
+                        <div class="portfolio__popup-body"> 
+                            <div class= "portfolio__item-details">
+                                <h3 class="details__title"> MVP STALK App </h3>
+                                <p class="details__description">Dans le cadre du cours d'entrepreneuriat j'ai réalisé un mockup de mon application. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Cum corrupti maxime ipsum, adipisci eum, itaque quibusdam aspernatur eligendi beatae saepe accusantium, libero ratione atque sed consequatur quasi repellendus similique quod?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio__popup" id="mockup">
+
+        <div class="portfolio__popup-inner">
+            <div class="portfolio__popup-content grid">
+                <div class="pp__thumbnail">
+                    <img src="assets/img/landingpage.png" alt="" class="portfolio__popup-img">
+                </div>
+                <div class="portfolio__popup-info" >
+                    <div class= "portfolio__popup-subtitle "> Created - <span> 1 oct 2022 </span> 
+                        <div class="portfolio__popup-body"> 
+                            <div class= "portfolio__item-details">
+                                <h3 class="details__title"> Mockup Décoder le code </h3>
+                                <p class="details__description">Dans le cadre du cours décoder le code j'ai réalisé un mockup du site décoder le code. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Cum corrupti maxime ipsum, adipisci eum, itaque quibusdam aspernatur eligendi beatae saepe accusantium, libero ratione atque sed consequatur quasi repellendus similique quod?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--===== Contact =====-->
+
+        <section class="contact section" id="contact">
+            <h2 data-heading="Get in touch" class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="uil uil-envelope-edit contact__card-icon"></i>
+                            <h3 class="info__title">Email</h3>
+                            <span class="info__subtitle">carla.loialfrey@kedgebs.com</span>
+                            <span class="contact__button">
+                                Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                            </span>
+                        </div>
+
+                         <div class="contact__card">
+                            <i class="uil uil-whatsapp contact__card-icon"></i>
+                            <h3 class="info__title">Whatsapp</h3>
+                            <span class="info__subtitle">0000000</span>
+                            <span class="contact__button">
+                                Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                            </span>
+                        </div>
+
+                         <div class="contact__card">
+                            <i class="uil uil-facebook-messenger contact__card-icon"></i>
+                            <h3 class="info__title">Messenger</h3>
+                            <span class="info__subtitle">Carla</span>
+                            <span class="contact__button">
+                                Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <form action="" class="contact__form">
+                        <div class="input__container">
+                            <input type="text" class="input">
+                            <label for="" >Username</label>
+                            <span>Username</span>
+                        </div>
+
+                         <div class="input__container">
+                            <input type="email" class="input">
+                            <label for="" >Email</label>
+                            <span>Email</span>
+                        </div>
+
+                         <div class="input__container">
+                            <input type="tel" class="input">
+                            <label for="" >Phone</label>
+                            <span>Phone</span>
+                        </div>
+
+                         <div class="input__container textarea">
+                           <textarea name="" id="" cols="45" rows="10" class="input" rows="10"></textarea>
+                            <label for="" >Message</label>
+                            <span>Username</span>
+                        </div>
+                        <button type="submit" class="button"> <i class="uil uil-navigator button__icon"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--===== FOOTER =====-->
+        
+    <!--========== SCROLL UP ==========-->
+    
+
+</body>
+
+</html>
